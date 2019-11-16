@@ -15,5 +15,4 @@ fun main(args: Array<String>) {
                     OrdersAnalyzer.OrderLine(2,"b",2, BigDecimal(2.00))))
     val orderList =  listOf(order1,order2,order3)
     print(ordersAnalyzer.totalDailySales(orderList))
-    //ordersAnalyzer.printTotalDailySales(ordersAnalyzer.totalDailySales(orderList))
 }
